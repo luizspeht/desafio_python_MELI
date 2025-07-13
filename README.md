@@ -28,13 +28,9 @@ Para replicar o processo, recomendamos os seguintes passos:
    
 3. Em seguida, você pode adicionar nessa pasta o arquivo extract_compliance_data.py, disponibilizado nesse repositório.
 
-4. Para rodar o código, certifique-se que você tenha as bibliotecas:
+4. Para rodar o código, certifique-se que você tenha as bibliotecas abaixo instaladas:
    
    -requests
-   
-   -random
-   
-   -time
    
    -pandas
    
