@@ -8,15 +8,12 @@ Diagrama de Alto Nível
 
 <img width="597" height="149" alt="image" src="https://github.com/user-attachments/assets/065744bf-467e-473f-b08b-1373c8528c5d" />
 
+
 Documentação do Projeto
 
 Resumo:
 
-O script simula uma chamada a uma API para obter uma lista de 100 IDs.
-
-Resumo:
-
-O script simula uma chamada a uma API para obter uma lista de 100 IDs e após obeter a lista, simula uma chamada para cada id para obter os detalhes do mesmo.
+O script simula uma chamada a uma API para obter uma lista de 100 IDs e após obter a lista, simula uma chamada para cada id para obter os detalhes do mesmo. Por fim, os dados de cada id são salvos em um arquivo.csv para possibilitar/facilitar uma análise futura.
 
 Como Replicar o processo ?
 
@@ -41,4 +38,8 @@ Caso você não tenha as bibliotecas instaladas, você pode digitar o seguinte c
     cd C:\Users\{seu usuário}\Documents\extract_compliance_data
 E rodar o código através do comando abaixo:
    python extract_compliance_data.py
-7. Ao finalizar a execução, você poderá visualizar um arquivo .csv, no mesmo diretório, com os dados dos ids que foram consultados.
+**IMPORTANTE: Como a API não existe, criamos um modo simulação que gera os ids e os dados. No código, existe uma variável que habilita o modo simulação:
+   MODO_SIMULACAO = True
+Caso a API fosse criada e fosse possível realizar chamadas, o código já está pronto para isso ! Basta desabilitar o modo simulação atribuindo:
+   MODO_SIMULACAO = False
+8. Ao finalizar a execução, você poderá visualizar um arquivo .csv, no mesmo diretório, com os dados dos ids que foram consultados.
