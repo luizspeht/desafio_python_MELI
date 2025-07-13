@@ -38,8 +38,10 @@ Caso você não tenha as bibliotecas instaladas, você pode digitar o seguinte c
     cd C:\Users\{seu usuário}\Documents\extract_compliance_data
 E rodar o código através do comando abaixo:
    python extract_compliance_data.py
+   
 **IMPORTANTE: Como a API não existe, criamos um modo simulação que gera os ids e os dados. No código, existe uma variável que habilita o modo simulação:
    MODO_SIMULACAO = True
 Caso a API fosse criada e fosse possível realizar chamadas, o código já está pronto para isso ! Basta desabilitar o modo simulação atribuindo:
    MODO_SIMULACAO = False
-8. Ao finalizar a execução, você poderá visualizar um arquivo .csv, no mesmo diretório, com os dados dos ids que foram consultados.
+   
+7. Ao finalizar a execução, você poderá visualizar um arquivo .csv, no mesmo diretório, com os dados dos ids que foram consultados.
