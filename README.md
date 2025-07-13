@@ -61,9 +61,17 @@ Para replicar o processo, recomendamos os seguintes passos:
    **IMPORTANTE: Como a API não existe, criamos um modo simulação que gera os ids e os dados. No código, existe uma variável que habilita o modo simulação:
    
       MODO_SIMULACAO = True
-
+   
    Caso a API fosse criada e fosse possível realizar chamadas, o código já está pronto para isso ! Basta desabilitar o modo simulação atribuindo:
   
       MODO_SIMULACAO = False
    
 6. Ao finalizar a execução, você poderá visualizar um arquivo .csv, no mesmo diretório, com os dados dos ids que foram consultados.
+
+### Desafios/Bloqueios
+
+1. Tokens de autenticação - Seria necessário consultar a documentação da API para entender o método de autenticação
+2. Limites de taxa - A API pode limitar o número de chamadas/requisições por unidade de tempo. Para resolver esse problema, poderíamos utilizar time.sleep(tempo entre chamadas/requisições). No código extract_compliance_data.py foi adicionado essa função.  
+3. Estrutura JSON variável - Quando utilizamos APIs reais nem sempre a estrutura dos dados é fixa. Pode acontecer, por exemplo, de alguns registros terem campos faltantes. No nosso exemplo os registros tem o campo responsavel, mas pode acontecer que algum registro não tenha. Nesse caso, poderíamos usar o .get() para atribuir um valor caso o campo não exista no registro.
+
+   responsavel = item.get("responsavel", "Desconhecido")
