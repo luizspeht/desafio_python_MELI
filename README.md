@@ -1,22 +1,22 @@
 # desafio_python_MELI
 
-Objetivo: 
+## Objetivo: 
 
 Simular a extração de dados de um API e a geração de um arquivo .csv com os campos mais relevantes para uma análise futura.
 
-Diagrama de Alto Nível
+## Diagrama de Alto Nível
 
 <img width="737" height="181" alt="image" src="https://github.com/user-attachments/assets/f0b116ab-aa82-4d36-b2e5-188b4776b806" />
 
 
 
-Documentação do Projeto
+## Documentação do Projeto
 
-Resumo:
+### Resumo:
 
 O script simula uma chamada a uma API para obter uma lista de 100 IDs e após obter a lista, simula uma chamada para cada id para obter os detalhes do mesmo. Por fim, os dados de cada id são salvos em um arquivo.csv para possibilitar/facilitar uma análise futura.
 
-Como Replicar o processo ?
+### Como Replicar o processo ?
 
 Para replicar o processo, recomendamos os seguintes passos:
 
