@@ -26,7 +26,7 @@ Para replicar o processo, recomendamos os seguintes passos:
 
    "C:\Users\{seu usuário}\Documents\extract_compliance_data
    
-3. Em seguida, você pode adicionar nessa pasta o arquivo extract_compliance_data.py, disponibilizado aqui !
+3. Em seguida, você pode adicionar nessa pasta o arquivo extract_compliance_data.py, disponibilizado nesse repositório.
 
 4. Para rodar o código, certifique-se que você tenha as bibliotecas:
    
