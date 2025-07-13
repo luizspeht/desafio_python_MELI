@@ -6,7 +6,8 @@ Simular a extração de dados de um API e a geração de um arquivo .csv com os 
 
 Diagrama de Alto Nível
 
-<img width="597" height="149" alt="image" src="https://github.com/user-attachments/assets/065744bf-467e-473f-b08b-1373c8528c5d" />
+<img width="737" height="181" alt="image" src="https://github.com/user-attachments/assets/f0b116ab-aa82-4d36-b2e5-188b4776b806" />
+
 
 
 Documentação do Projeto
