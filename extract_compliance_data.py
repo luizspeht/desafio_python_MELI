@@ -80,4 +80,4 @@ df = pd.DataFrame(dados)
 # Salva o DataFrame em um arquivo CSV
 df.to_csv("alertas.csv", index=False, encoding="utf-8")
 
-print(f"✅ {len(dados)} alertas salvos em alertas.csv")
+print(f"{len(dados)} alertas salvos em alertas.csv")
