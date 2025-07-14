@@ -24,7 +24,7 @@ Para replicar o processo, recomendamos os seguintes passos:
    
 2. Com o Python instalado, você pode criar uma pasta em seu computador, em documentos por exemplos, e nomeá-la como extract_compliance_data
 
-   "C:\Users\{seu usuário}\Documents\extract_compliance_data
+   "C:\Users\\{seu usuário}\Documents\extract_compliance_data
    
 3. Em seguida, você pode adicionar nessa pasta o arquivo extract_compliance_data.py, disponibilizado nesse repositório.
 
@@ -48,7 +48,7 @@ Para replicar o processo, recomendamos os seguintes passos:
    
 5. Com o Python e as bibliotecas instaladas você pode, também no prompt de comando, acessar o diretório onde o seu arquivo .py está salvo através do comando abaixo:
 
-   cd C:\Users\{seu usuário}\Documents\extract_compliance_data
+   cd C:\Users\\{seu usuário}\Documents\extract_compliance_data
    
    E rodar o código através do comando abaixo:
    
